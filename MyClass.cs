@@ -10,6 +10,8 @@ public partial class MyClass : Control
 
 public partial class MyClass2
 {
+    // go to definition and then go to definition on delegate
+    public Func<int, int> fn;
     public TimeSpan ts;
 }
 

@@ -11,7 +11,9 @@ Console.WriteLine(duri);
 Console.WriteLine(fsp);
 Console.WriteLine(replaced);
 
+// definition / references with source generated file
 var xx = new MyClass();
+// definition over 2 files
 var x = new MyClass2();
 var xxx = new MyClass3();
 
